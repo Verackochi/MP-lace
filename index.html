@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head-->
+
+<!--header-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--название свйта-->
+    <title>MartPlace</title>
+    <!--мини логотип сайта-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--доб библиотеки-->
+    <link rel="stylesheet" href="css/lib.min.css">
+    <!--стили страницы-->
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+    <!--header-->
+    <!--Шапка Сайта-->
+<header class="header">
+    <!--верхняя панель сайта-->
+    <div class="header__top ">
+        <!--Размер страницы-->
+        <div class="container d-spacebeetwen f-aligncenter">
+            <!--логотип-->
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Mart Place" class="logo__image">
+            </a>
+            <!--регистрация для поставщиков-->
+            <a href="#" class="header__top-saller saller--none">Become a Seller</a>
+            <!--регистрация и вход-->
+            <div class="header__top-user user">
+                <!--регистрация-->
+                <a href="#" class="user__signUp">sign up</a>
+                <!--вход-->
+                <a href="#" class="user__signIn">sign in</a>
+            </div>
+            <!--Авторизированный аккаунт-->
+            <div class="header__top-account account flex f-aligncenter">
+                <!--уведомления-->
+                <a href="#" class="account__notice">
+                    <svg class="account__notice-icon" aria-label="notice">
+                        <use xlink: href="images/svg/stack/sprite.svg#alarm"></use>
+                    </svg>
+                    <span class="account__notice-counter">25</span>
+                </a>
+                <a href="#" class="account__massage">
+                     <svg class="account__massage-icon" aria-label="massage">
+                         <use xlink: href="images/svg/stack/sprite.svg#envelope"></use>
+                     </svg>
+                    <span class="account__massage-counter">25</span>
+                </a>
+                <a href="#" class="account__cart">
+                    <svg class="account__cart-icon" aria-label="cart">
+                        <use xlink: href="images/svg/stack/sprite.svg#cart"></use>
+                    </svg>
+                    <span class="account__cart-counter">25</span>
+                </a>
+
+                <div class="account__user d-spacebeetwen">
+                    <a href="#" class="account__user-link">
+                        <img src="images/user__foto.jpg" alt="profile image" class="account__user-image">
+                    </a>
+                    <div class="account__user-info">
+                        <a href="#" class="account__user-info--name">Taofiq Hakim</a>
+                        <a href="#" class="account__user-info--cash">$20.45</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__top-navigation navigation">
+        <div class="container d-spacebeetwen f-aligncenter">
+
+            <nav class="menu ">
+                <ul class="menu__list flex">
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__list-link">home</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__list-link">all products</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__list-link">wordpress</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__list-link">festures</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__list-link">Pages</a>
+                    </li>
+                </ul>
+            </nav>
+            <form action="#" class="navigation__form">
+                <input type="search" class="navigation__form-searche" name="#" id="#" placeholder="Search product here...">
+                <button type="navigation__form-btn" class="navigation__form-btn">
+                    <svg class="navigation__form-btn--icon" aria-label="search">
+                        <use xlink: href="images/svg/stack/sprite.svg#magnifier"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</header>
+
+    <!--other site elements-->
+
+    <main>
+        <section class="martplace">
+            <div class="container">
+                <div class="martplace__content">
+                    <h1 class="martplace__title">
+                        <span class="martplace__title--regular">
+                            Create Your Own
+                        </span>
+                        <br>
+                        Digital Product Marketplace
+                    </h1>
+                    <p class="martplace__content-text">
+                        MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+                    </p>
+                    <div class="martplace__content-link">
+                        <a href="#" class="martplace__content-link--all">
+                            View All Products
+                        </a>
+                        <a href="#" class="martplace__content-link--popular">
+                            Popular Products
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--footer-->
+    <footer class="footer">
+    <div class="container">
+        
+    </div>
+</footer>
+
+    <!--JS script-->
+    <!--библиотеки-->
+<script src="js/lib.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
